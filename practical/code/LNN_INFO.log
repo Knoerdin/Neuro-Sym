@@ -1,352 +1,85 @@
-INFO:root:********************** Model 2025-11-16 11:17:01.099438 **********************
-INFO:root:********************** Model 2025-11-16 11:32:59.217348 **********************
+INFO:root:********************** Model 2025-12-15 12:00:31.451813 **********************
 INFO:root:----------------------
 INFO:root:REASONING STEP:0
-INFO:root:----------------------
-INFO:root:REASONING STEP:0
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'(BadWeather(0) ∧ AirportBusy(0))' FORMULA:1 
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:0.800000011920929 FOR:'(SameAirport(0, 1) ∧ BadWeather(0))' FORMULA:6 
-INFO:root:UPWARD INFERENCE RESULT:1.7999999523162842
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.7999999523162842 FOR:'BadWeather' FROM:'((SameAirport(0, 1) ∧ BadWeather(0)) → BadWeather(1))' FORMULA:2 PARENT:5 
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:1.0 FOR:'(BadWeather(0) ∧ AirportBusy(0))' FROM:'((BadWeather(0) ∧ AirportBusy(0)) → Delayed(0))' FORMULA:1 PARENT:0 
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:5.960464477539063e-08 FOR:'BadWeather' FROM:'(BadWeather(0) ∧ AirportBusy(0))' FORMULA:2 PARENT:1 
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.7999999523162842 FOR:'AirportBusy' FROM:'(BadWeather(0) ∧ AirportBusy(0))' FORMULA:3 PARENT:1 
-INFO:root:DOWNWARD INFERENCE RESULT:2.5999999046325684
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:22.0 FOR:'(Hyps(0, 1) ∧ Hyps(1, 2))' FORMULA:1 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:28.0 FOR:'((Hyps(0, 1) ∧ Hyps(1, 2)) → Hyps(0, 2))' FORMULA:0 
+INFO:root:UPWARD INFERENCE RESULT:50.0
 INFO:root:----------------------
 INFO:root:REASONING STEP:1
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:5.960464477539063e-08 FOR:'(SameAirport(0, 1) ∧ BadWeather(0))' FORMULA:6 
-INFO:root:UPWARD INFERENCE RESULT:5.960464477539063e-08
-INFO:root:NO UPDATES AVAILABLE, TRYING A NEW AXIOM
-INFO:root:======================
-INFO:root:INFERENCE CONVERGED WITH 4.399999618530273 BOUNDS UPDATES IN 2 REASONING STEPS 
-INFO:root:******************************************************************************
-INFO:root:----------------------
-INFO:root:REASONING STEP:0
-INFO:root:NO UPDATES AVAILABLE, TRYING A NEW AXIOM
-INFO:root:======================
-INFO:root:INFERENCE CONVERGED WITH 0.0 BOUNDS UPDATES IN 1 REASONING STEPS 
-INFO:root:******************************************************************************
-INFO:root:----------------------
-INFO:root:REASONING STEP:0
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'(BadWeather(0) ∧ AirportBusy(0))' FORMULA:1 
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:0.800000011920929 FOR:'(SameAirport(0, 1) ∧ BadWeather(0))' FORMULA:6 
-INFO:root:UPWARD INFERENCE RESULT:1.7999999523162842
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.7999999523162842 FOR:'BadWeather' FROM:'((SameAirport(0, 1) ∧ BadWeather(0)) → BadWeather(1))' FORMULA:2 PARENT:5 
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:1.0 FOR:'(BadWeather(0) ∧ AirportBusy(0))' FROM:'((BadWeather(0) ∧ AirportBusy(0)) → Delayed(0))' FORMULA:1 PARENT:0 
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:5.960464477539063e-08 FOR:'BadWeather' FROM:'(BadWeather(0) ∧ AirportBusy(0))' FORMULA:2 PARENT:1 
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.7999999523162842 FOR:'AirportBusy' FROM:'(BadWeather(0) ∧ AirportBusy(0))' FORMULA:3 PARENT:1 
-INFO:root:DOWNWARD INFERENCE RESULT:2.5999999046325684
-INFO:root:----------------------
-INFO:root:REASONING STEP:1
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:5.960464477539063e-08 FOR:'(SameAirport(0, 1) ∧ BadWeather(0))' FORMULA:6 
-INFO:root:UPWARD INFERENCE RESULT:5.960464477539063e-08
-INFO:root:NO UPDATES AVAILABLE, TRYING A NEW AXIOM
-INFO:root:======================
-INFO:root:INFERENCE CONVERGED WITH 4.399999618530273 BOUNDS UPDATES IN 2 REASONING STEPS 
-INFO:root:******************************************************************************
-INFO:root:----------------------
-INFO:root:REASONING STEP:0
-INFO:root:NO UPDATES AVAILABLE, TRYING A NEW AXIOM
-INFO:root:======================
-INFO:root:INFERENCE CONVERGED WITH 0.0 BOUNDS UPDATES IN 1 REASONING STEPS 
-INFO:root:******************************************************************************
-INFO:root:----------------------
-INFO:root:REASONING STEP:0
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'(BadWeather(0) ∧ AirportBusy(0))' FORMULA:1 
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:0.800000011920929 FOR:'(SameAirport(0, 1) ∧ BadWeather(0))' FORMULA:6 
-INFO:root:UPWARD INFERENCE RESULT:1.7999999523162842
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.7999999523162842 FOR:'BadWeather' FROM:'((SameAirport(0, 1) ∧ BadWeather(0)) → BadWeather(1))' FORMULA:2 PARENT:5 
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:1.0 FOR:'(BadWeather(0) ∧ AirportBusy(0))' FROM:'((BadWeather(0) ∧ AirportBusy(0)) → Delayed(0))' FORMULA:1 PARENT:0 
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:5.960464477539063e-08 FOR:'BadWeather' FROM:'(BadWeather(0) ∧ AirportBusy(0))' FORMULA:2 PARENT:1 
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.7999999523162842 FOR:'AirportBusy' FROM:'(BadWeather(0) ∧ AirportBusy(0))' FORMULA:3 PARENT:1 
-INFO:root:DOWNWARD INFERENCE RESULT:2.5999999046325684
-INFO:root:----------------------
-INFO:root:REASONING STEP:1
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:5.960464477539063e-08 FOR:'(SameAirport(0, 1) ∧ BadWeather(0))' FORMULA:6 
-INFO:root:UPWARD INFERENCE RESULT:5.960464477539063e-08
-INFO:root:NO UPDATES AVAILABLE, TRYING A NEW AXIOM
-INFO:root:======================
-INFO:root:INFERENCE CONVERGED WITH 4.399999618530273 BOUNDS UPDATES IN 2 REASONING STEPS 
-INFO:root:******************************************************************************
-INFO:root:********************** Model 2025-11-16 12:26:02.286739 **********************
-INFO:root:----------------------
-INFO:root:REASONING STEP:0
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'(BadWeather(0) ∧ AirportBusy(0))' FORMULA:1 
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:0.800000011920929 FOR:'(SameAirport(0, 1) ∧ BadWeather(0))' FORMULA:6 
-INFO:root:UPWARD INFERENCE RESULT:1.7999999523162842
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.7999999523162842 FOR:'BadWeather' FROM:'((SameAirport(0, 1) ∧ BadWeather(0)) → BadWeather(1))' FORMULA:2 PARENT:5 
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:1.0 FOR:'(BadWeather(0) ∧ AirportBusy(0))' FROM:'((BadWeather(0) ∧ AirportBusy(0)) → Delayed(0))' FORMULA:1 PARENT:0 
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:5.960464477539063e-08 FOR:'BadWeather' FROM:'(BadWeather(0) ∧ AirportBusy(0))' FORMULA:2 PARENT:1 
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.7999999523162842 FOR:'AirportBusy' FROM:'(BadWeather(0) ∧ AirportBusy(0))' FORMULA:3 PARENT:1 
-INFO:root:DOWNWARD INFERENCE RESULT:2.5999999046325684
-INFO:root:----------------------
-INFO:root:REASONING STEP:1
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:5.960464477539063e-08 FOR:'(SameAirport(0, 1) ∧ BadWeather(0))' FORMULA:6 
-INFO:root:UPWARD INFERENCE RESULT:5.960464477539063e-08
-INFO:root:NO UPDATES AVAILABLE, TRYING A NEW AXIOM
-INFO:root:======================
-INFO:root:INFERENCE CONVERGED WITH 4.399999618530273 BOUNDS UPDATES IN 2 REASONING STEPS 
-INFO:root:******************************************************************************
-INFO:root:----------------------
-INFO:root:REASONING STEP:0
-INFO:root:NO UPDATES AVAILABLE, TRYING A NEW AXIOM
-INFO:root:======================
-INFO:root:INFERENCE CONVERGED WITH 0.0 BOUNDS UPDATES IN 1 REASONING STEPS 
-INFO:root:******************************************************************************
-INFO:root:----------------------
-INFO:root:REASONING STEP:0
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.0 FOR:'(BadWeather(0) ∧ AirportBusy(0))' FORMULA:1 
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:0.800000011920929 FOR:'(SameAirport(0, 1) ∧ BadWeather(0))' FORMULA:6 
-INFO:root:UPWARD INFERENCE RESULT:1.7999999523162842
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.7999999523162842 FOR:'BadWeather' FROM:'((SameAirport(0, 1) ∧ BadWeather(0)) → BadWeather(1))' FORMULA:2 PARENT:5 
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:1.0 FOR:'(BadWeather(0) ∧ AirportBusy(0))' FROM:'((BadWeather(0) ∧ AirportBusy(0)) → Delayed(0))' FORMULA:1 PARENT:0 
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:5.960464477539063e-08 FOR:'BadWeather' FROM:'(BadWeather(0) ∧ AirportBusy(0))' FORMULA:2 PARENT:1 
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.7999999523162842 FOR:'AirportBusy' FROM:'(BadWeather(0) ∧ AirportBusy(0))' FORMULA:3 PARENT:1 
-INFO:root:DOWNWARD INFERENCE RESULT:2.5999999046325684
-INFO:root:----------------------
-INFO:root:REASONING STEP:1
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:5.960464477539063e-08 FOR:'(SameAirport(0, 1) ∧ BadWeather(0))' FORMULA:6 
-INFO:root:UPWARD INFERENCE RESULT:5.960464477539063e-08
-INFO:root:NO UPDATES AVAILABLE, TRYING A NEW AXIOM
-INFO:root:======================
-INFO:root:INFERENCE CONVERGED WITH 4.399999618530273 BOUNDS UPDATES IN 2 REASONING STEPS 
-INFO:root:******************************************************************************
-INFO:root:********************** Model 2025-11-16 12:30:52.605863 **********************
-INFO:root:----------------------
-INFO:root:REASONING STEP:0
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.5 FOR:'(BadWeather(0) ∨ AirportBusy(0))' FORMULA:1 
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:0.800000011920929 FOR:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:0 
-INFO:root:↑ CONTRADICTION FOR:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:0 
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:0.800000011920929 FOR:'(SameAirport(0, 1) ∧ BadWeather(0))' FORMULA:6 
-INFO:root:UPWARD INFERENCE RESULT:3.0999999046325684
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.7999999523162842 FOR:'BadWeather' FROM:'((SameAirport(0, 1) ∧ BadWeather(0)) → BadWeather(1))' FORMULA:2 PARENT:5 
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:5.960464477539063e-08 FOR:'(BadWeather(0) ∨ AirportBusy(0))' FROM:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:1 PARENT:0 
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.7000000476837158 FOR:'Delayed' FROM:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:4 PARENT:0 
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:5.960464477539063e-08 FOR:'BadWeather' FROM:'(BadWeather(0) ∨ AirportBusy(0))' FORMULA:2 PARENT:1 
-INFO:root:DOWNWARD INFERENCE RESULT:1.5
-INFO:root:----------------------
-INFO:root:REASONING STEP:1
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:0.7999999523162842 FOR:'(BadWeather(0) ∨ AirportBusy(0))' FORMULA:1 
-INFO:root:↑ CONTRADICTION FOR:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:0 
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:5.960464477539063e-08 FOR:'(SameAirport(0, 1) ∧ BadWeather(0))' FORMULA:6 
-INFO:root:UPWARD INFERENCE RESULT:0.800000011920929
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.7999999523162842 FOR:'Delayed' FROM:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:4 PARENT:0 
-INFO:root:DOWNWARD INFERENCE RESULT:0.7999999523162842
-INFO:root:----------------------
-INFO:root:REASONING STEP:2
-INFO:root:↑ CONTRADICTION FOR:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:0 
-INFO:root:NO UPDATES AVAILABLE, TRYING A NEW AXIOM
-INFO:root:======================
-INFO:root:INFERENCE CONVERGED WITH 6.199999809265137 BOUNDS UPDATES IN 3 REASONING STEPS 
-INFO:root:******************************************************************************
-INFO:root:----------------------
-INFO:root:REASONING STEP:0
-INFO:root:↑ CONTRADICTION FOR:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:0 
-INFO:root:NO UPDATES AVAILABLE, TRYING A NEW AXIOM
-INFO:root:======================
-INFO:root:INFERENCE CONVERGED WITH 0.0 BOUNDS UPDATES IN 1 REASONING STEPS 
-INFO:root:******************************************************************************
-INFO:root:CONTRADICTION LOSS 0.800000011920929
-INFO:root:############################### PARAMETER STEP ###############################
-INFO:root:----------------------
-INFO:root:REASONING STEP:0
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.4749999046325684 FOR:'(BadWeather(0) ∨ AirportBusy(0))' FORMULA:1 
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:0.6979999542236328 FOR:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:0 
-INFO:root:↑ CONTRADICTION FOR:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:0 
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:0.800000011920929 FOR:'(SameAirport(0, 1) ∧ BadWeather(0))' FORMULA:6 
-INFO:root:UPWARD INFERENCE RESULT:2.9729998111724854
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.7999999523162842 FOR:'BadWeather' FROM:'((SameAirport(0, 1) ∧ BadWeather(0)) → BadWeather(1))' FORMULA:2 PARENT:5 
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.5982499718666077 FOR:'Delayed' FROM:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:4 PARENT:0 
-INFO:root:DOWNWARD INFERENCE RESULT:1.398249864578247
-INFO:root:----------------------
-INFO:root:REASONING STEP:1
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:0.7599999308586121 FOR:'(BadWeather(0) ∨ AirportBusy(0))' FORMULA:1 
-INFO:root:↑ CONTRADICTION FOR:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:0 
-INFO:root:UPWARD INFERENCE RESULT:0.7599999308586121
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.697999894618988 FOR:'Delayed' FROM:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:4 PARENT:0 
-INFO:root:DOWNWARD INFERENCE RESULT:0.697999894618988
-INFO:root:----------------------
-INFO:root:REASONING STEP:2
-INFO:root:↑ CONTRADICTION FOR:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:0 
-INFO:root:NO UPDATES AVAILABLE, TRYING A NEW AXIOM
-INFO:root:======================
-INFO:root:INFERENCE CONVERGED WITH 5.829249382019043 BOUNDS UPDATES IN 3 REASONING STEPS 
-INFO:root:******************************************************************************
-INFO:root:CONTRADICTION LOSS 0.6979999542236328
-INFO:root:############################### PARAMETER STEP ###############################
-INFO:root:----------------------
-INFO:root:REASONING STEP:0
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.4499757289886475 FOR:'(BadWeather(0) ∨ AirportBusy(0))' FORMULA:1 
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:0.5919485092163086 FOR:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:0 
-INFO:root:↑ CONTRADICTION FOR:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:0 
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:0.800000011920929 FOR:'(SameAirport(0, 1) ∧ BadWeather(0))' FORMULA:6 
-INFO:root:UPWARD INFERENCE RESULT:2.8419241905212402
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.7999999523162842 FOR:'BadWeather' FROM:'((SameAirport(0, 1) ∧ BadWeather(0)) → BadWeather(1))' FORMULA:2 PARENT:5 
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.4929511547088623 FOR:'Delayed' FROM:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:4 PARENT:0 
-INFO:root:DOWNWARD INFERENCE RESULT:1.2929511070251465
-INFO:root:----------------------
-INFO:root:REASONING STEP:1
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:0.7199609875679016 FOR:'(BadWeather(0) ∨ AirportBusy(0))' FORMULA:1 
-INFO:root:↑ CONTRADICTION FOR:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:0 
-INFO:root:UPWARD INFERENCE RESULT:0.7199609875679016
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.5919485092163086 FOR:'Delayed' FROM:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:4 PARENT:0 
-INFO:root:DOWNWARD INFERENCE RESULT:0.5919485092163086
-INFO:root:----------------------
-INFO:root:REASONING STEP:2
-INFO:root:↑ CONTRADICTION FOR:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:0 
-INFO:root:NO UPDATES AVAILABLE, TRYING A NEW AXIOM
-INFO:root:======================
-INFO:root:INFERENCE CONVERGED WITH 5.446784973144531 BOUNDS UPDATES IN 3 REASONING STEPS 
-INFO:root:******************************************************************************
-INFO:root:CONTRADICTION LOSS 0.5919485092163086
-INFO:root:############################### PARAMETER STEP ###############################
-INFO:root:----------------------
-INFO:root:REASONING STEP:0
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.4249119758605957 FOR:'(BadWeather(0) ∨ AirportBusy(0))' FORMULA:1 
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:0.4817906618118286 FOR:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:0 
-INFO:root:↑ CONTRADICTION FOR:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:0 
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:0.800000011920929 FOR:'(SameAirport(0, 1) ∧ BadWeather(0))' FORMULA:6 
-INFO:root:UPWARD INFERENCE RESULT:2.706702709197998
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.7999999523162842 FOR:'BadWeather' FROM:'((SameAirport(0, 1) ∧ BadWeather(0)) → BadWeather(1))' FORMULA:2 PARENT:5 
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.3840484023094177 FOR:'Delayed' FROM:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:4 PARENT:0 
-INFO:root:DOWNWARD INFERENCE RESULT:1.1840484142303467
-INFO:root:----------------------
-INFO:root:REASONING STEP:1
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:0.6798589825630188 FOR:'(BadWeather(0) ∨ AirportBusy(0))' FORMULA:1 
-INFO:root:↑ CONTRADICTION FOR:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:0 
-INFO:root:UPWARD INFERENCE RESULT:0.6798589825630188
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.48179060220718384 FOR:'Delayed' FROM:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:4 PARENT:0 
-INFO:root:DOWNWARD INFERENCE RESULT:0.48179060220718384
-INFO:root:----------------------
-INFO:root:REASONING STEP:2
-INFO:root:↑ CONTRADICTION FOR:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:0 
-INFO:root:NO UPDATES AVAILABLE, TRYING A NEW AXIOM
-INFO:root:======================
-INFO:root:INFERENCE CONVERGED WITH 5.052400588989258 BOUNDS UPDATES IN 3 REASONING STEPS 
-INFO:root:******************************************************************************
-INFO:root:CONTRADICTION LOSS 0.4817906618118286
-INFO:root:############################### PARAMETER STEP ###############################
-INFO:root:----------------------
-INFO:root:REASONING STEP:0
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.399794578552246 FOR:'(BadWeather(0) ∨ AirportBusy(0))' FORMULA:1 
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:0.3674580454826355 FOR:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:0 
-INFO:root:↑ CONTRADICTION FOR:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:0 
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:0.800000011920929 FOR:'(SameAirport(0, 1) ∧ BadWeather(0))' FORMULA:6 
-INFO:root:UPWARD INFERENCE RESULT:2.5672526359558105
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.7999999523162842 FOR:'BadWeather' FROM:'((SameAirport(0, 1) ∧ BadWeather(0)) → BadWeather(1))' FORMULA:2 PARENT:5 
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.27147459983825684 FOR:'Delayed' FROM:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:4 PARENT:0 
-INFO:root:DOWNWARD INFERENCE RESULT:1.071474552154541
-INFO:root:----------------------
-INFO:root:REASONING STEP:1
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:0.639671266078949 FOR:'(BadWeather(0) ∨ AirportBusy(0))' FORMULA:1 
-INFO:root:↑ CONTRADICTION FOR:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:0 
-INFO:root:UPWARD INFERENCE RESULT:0.639671266078949
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.3674581050872803 FOR:'Delayed' FROM:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:4 PARENT:0 
-INFO:root:DOWNWARD INFERENCE RESULT:0.3674581050872803
-INFO:root:----------------------
-INFO:root:REASONING STEP:2
-INFO:root:↑ CONTRADICTION FOR:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:0 
-INFO:root:NO UPDATES AVAILABLE, TRYING A NEW AXIOM
-INFO:root:======================
-INFO:root:INFERENCE CONVERGED WITH 4.645856857299805 BOUNDS UPDATES IN 3 REASONING STEPS 
-INFO:root:******************************************************************************
-INFO:root:CONTRADICTION LOSS 0.3674580454826355
-INFO:root:############################### PARAMETER STEP ###############################
-INFO:root:----------------------
-INFO:root:REASONING STEP:0
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.3746103048324585 FOR:'(BadWeather(0) ∨ AirportBusy(0))' FORMULA:1 
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:0.248870849609375 FOR:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:0 
-INFO:root:↑ CONTRADICTION FOR:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:0 
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:0.800000011920929 FOR:'(SameAirport(0, 1) ∧ BadWeather(0))' FORMULA:6 
-INFO:root:UPWARD INFERENCE RESULT:2.4234812259674072
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.7999999523162842 FOR:'BadWeather' FROM:'((SameAirport(0, 1) ∧ BadWeather(0)) → BadWeather(1))' FORMULA:2 PARENT:5 
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.15515297651290894 FOR:'Delayed' FROM:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:4 PARENT:0 
-INFO:root:DOWNWARD INFERENCE RESULT:0.9551529288291931
-INFO:root:----------------------
-INFO:root:REASONING STEP:1
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:0.599376380443573 FOR:'(BadWeather(0) ∨ AirportBusy(0))' FORMULA:1 
-INFO:root:↑ CONTRADICTION FOR:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:0 
-INFO:root:UPWARD INFERENCE RESULT:0.599376380443573
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.24887079000473022 FOR:'Delayed' FROM:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:4 PARENT:0 
-INFO:root:DOWNWARD INFERENCE RESULT:0.24887079000473022
-INFO:root:----------------------
-INFO:root:REASONING STEP:2
-INFO:root:↑ CONTRADICTION FOR:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:0 
-INFO:root:NO UPDATES AVAILABLE, TRYING A NEW AXIOM
-INFO:root:======================
-INFO:root:INFERENCE CONVERGED WITH 4.226881504058838 BOUNDS UPDATES IN 3 REASONING STEPS 
-INFO:root:******************************************************************************
-INFO:root:CONTRADICTION LOSS 0.248870849609375
-INFO:root:############################### PARAMETER STEP ###############################
-INFO:root:----------------------
-INFO:root:REASONING STEP:0
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.349346399307251 FOR:'(BadWeather(0) ∨ AirportBusy(0))' FORMULA:1 
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:0.12593978643417358 FOR:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:0 
-INFO:root:↑ CONTRADICTION FOR:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:0 
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:0.800000011920929 FOR:'(SameAirport(0, 1) ∧ BadWeather(0))' FORMULA:6 
-INFO:root:UPWARD INFERENCE RESULT:2.2752861976623535
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.7999999523162842 FOR:'BadWeather' FROM:'((SameAirport(0, 1) ∧ BadWeather(0)) → BadWeather(1))' FORMULA:2 PARENT:5 
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.03499865531921387 FOR:'Delayed' FROM:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:4 PARENT:0 
-INFO:root:DOWNWARD INFERENCE RESULT:0.834998607635498
-INFO:root:----------------------
-INFO:root:REASONING STEP:1
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:0.5589542388916016 FOR:'(BadWeather(0) ∨ AirportBusy(0))' FORMULA:1 
-INFO:root:↑ CONTRADICTION FOR:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:0 
-INFO:root:UPWARD INFERENCE RESULT:0.5589542388916016
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.1259397268295288 FOR:'Delayed' FROM:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:4 PARENT:0 
-INFO:root:DOWNWARD INFERENCE RESULT:0.1259397268295288
-INFO:root:----------------------
-INFO:root:REASONING STEP:2
-INFO:root:↑ CONTRADICTION FOR:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:0 
-INFO:root:NO UPDATES AVAILABLE, TRYING A NEW AXIOM
-INFO:root:======================
-INFO:root:INFERENCE CONVERGED WITH 3.7951788902282715 BOUNDS UPDATES IN 3 REASONING STEPS 
-INFO:root:******************************************************************************
-INFO:root:CONTRADICTION LOSS 0.12593978643417358
-INFO:root:############################### PARAMETER STEP ###############################
-INFO:root:----------------------
-INFO:root:REASONING STEP:0
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.323991298675537 FOR:'(BadWeather(0) ∨ AirportBusy(0))' FORMULA:1 
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:0.800000011920929 FOR:'(SameAirport(0, 1) ∧ BadWeather(0))' FORMULA:6 
-INFO:root:UPWARD INFERENCE RESULT:2.1239912509918213
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.7999999523162842 FOR:'BadWeather' FROM:'((SameAirport(0, 1) ∧ BadWeather(0)) → BadWeather(1))' FORMULA:2 PARENT:5 
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.4805549383163452 FOR:'(BadWeather(0) ∨ AirportBusy(0))' FROM:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:1 PARENT:0 
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.19836586713790894 FOR:'BadWeather' FROM:'(BadWeather(0) ∨ AirportBusy(0))' FORMULA:2 PARENT:1 
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.9989410638809204 FOR:'AirportBusy' FROM:'(BadWeather(0) ∨ AirportBusy(0))' FORMULA:3 PARENT:1 
-INFO:root:DOWNWARD INFERENCE RESULT:2.4778618812561035
-INFO:root:----------------------
-INFO:root:REASONING STEP:1
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:0.5183861255645752 FOR:'(BadWeather(0) ∨ AirportBusy(0))' FORMULA:1 
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:0.19836580753326416 FOR:'(SameAirport(0, 1) ∧ BadWeather(0))' FORMULA:6 
-INFO:root:UPWARD INFERENCE RESULT:0.7167519330978394
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.5950974225997925 FOR:'(SameAirport(0, 1) ∧ BadWeather(0))' FROM:'((SameAirport(0, 1) ∧ BadWeather(0)) → BadWeather(1))' FORMULA:6 PARENT:5 
-INFO:root:DOWNWARD INFERENCE RESULT:0.5950974225997925
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:3.0 FOR:'(Hyps(0, 1) ∧ Hyps(1, 2))' FORMULA:1 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:3.0 FOR:'((Hyps(0, 1) ∧ Hyps(1, 2)) → Hyps(0, 2))' FORMULA:0 
+INFO:root:UPWARD INFERENCE RESULT:6.0
 INFO:root:----------------------
 INFO:root:REASONING STEP:2
 INFO:root:NO UPDATES AVAILABLE, TRYING A NEW AXIOM
 INFO:root:======================
-INFO:root:INFERENCE CONVERGED WITH 5.913702964782715 BOUNDS UPDATES IN 3 REASONING STEPS 
+INFO:root:INFERENCE CONVERGED WITH 56.0 BOUNDS UPDATES IN 3 REASONING STEPS 
 INFO:root:******************************************************************************
+INFO:root:********************** Model 2025-12-15 12:14:22.674048 **********************
 INFO:root:----------------------
 INFO:root:REASONING STEP:0
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:1.3016393184661865 FOR:'(BadWeather(0) ∨ AirportBusy(0))' FORMULA:1 
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:0.800000011920929 FOR:'(SameAirport(0, 1) ∧ BadWeather(0))' FORMULA:6 
-INFO:root:UPWARD INFERENCE RESULT:2.1016392707824707
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.7999999523162842 FOR:'BadWeather' FROM:'((SameAirport(0, 1) ∧ BadWeather(0)) → BadWeather(1))' FORMULA:2 PARENT:5 
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.43355250358581543 FOR:'(BadWeather(0) ∨ AirportBusy(0))' FROM:'((BadWeather(0) ∨ AirportBusy(0)) → Delayed(0))' FORMULA:1 PARENT:0 
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.06105154752731323 FOR:'BadWeather' FROM:'(BadWeather(0) ∨ AirportBusy(0))' FORMULA:2 PARENT:1 
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.916175365447998 FOR:'AirportBusy' FROM:'(BadWeather(0) ∨ AirportBusy(0))' FORMULA:3 PARENT:1 
-INFO:root:DOWNWARD INFERENCE RESULT:2.2107794284820557
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:22.0 FOR:'(Hyps(0, 1) ∧ Hyps(1, 2))' FORMULA:1 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:28.0 FOR:'((Hyps(0, 1) ∧ Hyps(1, 2)) → Hyps(0, 2))' FORMULA:0 
+INFO:root:UPWARD INFERENCE RESULT:50.0
 INFO:root:----------------------
 INFO:root:REASONING STEP:1
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:0.48262283205986023 FOR:'(BadWeather(0) ∨ AirportBusy(0))' FORMULA:1 
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:0.06105154752731323 FOR:'(SameAirport(0, 1) ∧ BadWeather(0))' FORMULA:6 
-INFO:root:UPWARD INFERENCE RESULT:0.5436743497848511
-INFO:root:↓ BOUNDS UPDATED TIGHTENED:0.18315482139587402 FOR:'(SameAirport(0, 1) ∧ BadWeather(0))' FROM:'((SameAirport(0, 1) ∧ BadWeather(0)) → BadWeather(1))' FORMULA:6 PARENT:5 
-INFO:root:DOWNWARD INFERENCE RESULT:0.18315482139587402
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:3.0 FOR:'(Hyps(0, 1) ∧ Hyps(1, 2))' FORMULA:1 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:3.0 FOR:'((Hyps(0, 1) ∧ Hyps(1, 2)) → Hyps(0, 2))' FORMULA:0 
+INFO:root:UPWARD INFERENCE RESULT:6.0
 INFO:root:----------------------
 INFO:root:REASONING STEP:2
 INFO:root:NO UPDATES AVAILABLE, TRYING A NEW AXIOM
 INFO:root:======================
-INFO:root:INFERENCE CONVERGED WITH 5.039247989654541 BOUNDS UPDATES IN 3 REASONING STEPS 
+INFO:root:INFERENCE CONVERGED WITH 56.0 BOUNDS UPDATES IN 3 REASONING STEPS 
+INFO:root:******************************************************************************
+INFO:root:********************** Model 2025-12-15 12:16:17.597243 **********************
+INFO:root:----------------------
+INFO:root:REASONING STEP:0
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:22.0 FOR:'(Hyps(0, 1) ∧ Hyps(1, 2))' FORMULA:1 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:28.0 FOR:'((Hyps(0, 1) ∧ Hyps(1, 2)) → Hyps(0, 2))' FORMULA:0 
+INFO:root:UPWARD INFERENCE RESULT:50.0
+INFO:root:----------------------
+INFO:root:REASONING STEP:1
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:3.0 FOR:'(Hyps(0, 1) ∧ Hyps(1, 2))' FORMULA:1 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:3.0 FOR:'((Hyps(0, 1) ∧ Hyps(1, 2)) → Hyps(0, 2))' FORMULA:0 
+INFO:root:UPWARD INFERENCE RESULT:6.0
+INFO:root:----------------------
+INFO:root:REASONING STEP:2
+INFO:root:NO UPDATES AVAILABLE, TRYING A NEW AXIOM
+INFO:root:======================
+INFO:root:INFERENCE CONVERGED WITH 56.0 BOUNDS UPDATES IN 3 REASONING STEPS 
+INFO:root:******************************************************************************
+INFO:root:********************** Model 2025-12-15 12:16:29.591977 **********************
+INFO:root:----------------------
+INFO:root:REASONING STEP:0
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:22.0 FOR:'(Hyps(0, 1) ∧ Hyps(1, 2))' FORMULA:1 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:28.0 FOR:'((Hyps(0, 1) ∧ Hyps(1, 2)) → Hyps(0, 2))' FORMULA:0 
+INFO:root:UPWARD INFERENCE RESULT:50.0
+INFO:root:----------------------
+INFO:root:REASONING STEP:1
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:3.0 FOR:'(Hyps(0, 1) ∧ Hyps(1, 2))' FORMULA:1 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:3.0 FOR:'((Hyps(0, 1) ∧ Hyps(1, 2)) → Hyps(0, 2))' FORMULA:0 
+INFO:root:UPWARD INFERENCE RESULT:6.0
+INFO:root:----------------------
+INFO:root:REASONING STEP:2
+INFO:root:NO UPDATES AVAILABLE, TRYING A NEW AXIOM
+INFO:root:======================
+INFO:root:INFERENCE CONVERGED WITH 56.0 BOUNDS UPDATES IN 3 REASONING STEPS 
+INFO:root:******************************************************************************
+INFO:root:********************** Model 2025-12-15 12:16:43.473508 **********************
+INFO:root:----------------------
+INFO:root:REASONING STEP:0
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:22.0 FOR:'(Hyps(0, 1) ∧ Hyps(1, 2))' FORMULA:1 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:28.0 FOR:'((Hyps(0, 1) ∧ Hyps(1, 2)) → Hyps(0, 2))' FORMULA:0 
+INFO:root:UPWARD INFERENCE RESULT:50.0
+INFO:root:----------------------
+INFO:root:REASONING STEP:1
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:3.0 FOR:'(Hyps(0, 1) ∧ Hyps(1, 2))' FORMULA:1 
+INFO:root:↑ BOUNDS UPDATED TIGHTENED:3.0 FOR:'((Hyps(0, 1) ∧ Hyps(1, 2)) → Hyps(0, 2))' FORMULA:0 
+INFO:root:UPWARD INFERENCE RESULT:6.0
+INFO:root:----------------------
+INFO:root:REASONING STEP:2
+INFO:root:NO UPDATES AVAILABLE, TRYING A NEW AXIOM
+INFO:root:======================
+INFO:root:INFERENCE CONVERGED WITH 56.0 BOUNDS UPDATES IN 3 REASONING STEPS 
 INFO:root:******************************************************************************
