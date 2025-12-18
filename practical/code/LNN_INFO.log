@@ -1,38 +1,4 @@
-INFO:root:********************** Model 2025-12-16 11:27:23.583390 **********************
-INFO:root:----------------------
-INFO:root:REASONING STEP:0
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:22.0 FOR:'(Hyps(0, 1) ∧ Hyps(1, 2))' FORMULA:1 
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:28.0 FOR:'((Hyps(0, 1) ∧ Hyps(1, 2)) → Hyps(0, 2))' FORMULA:0 
-INFO:root:UPWARD INFERENCE RESULT:50.0
-INFO:root:----------------------
-INFO:root:REASONING STEP:1
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:3.0 FOR:'(Hyps(0, 1) ∧ Hyps(1, 2))' FORMULA:1 
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:3.0 FOR:'((Hyps(0, 1) ∧ Hyps(1, 2)) → Hyps(0, 2))' FORMULA:0 
-INFO:root:UPWARD INFERENCE RESULT:6.0
-INFO:root:----------------------
-INFO:root:REASONING STEP:2
-INFO:root:NO UPDATES AVAILABLE, TRYING A NEW AXIOM
-INFO:root:======================
-INFO:root:INFERENCE CONVERGED WITH 56.0 BOUNDS UPDATES IN 3 REASONING STEPS 
-INFO:root:******************************************************************************
-INFO:root:********************** Model 2025-12-16 11:27:50.248547 **********************
-INFO:root:----------------------
-INFO:root:REASONING STEP:0
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:22.0 FOR:'(Hyps(0, 1) ∧ Hyps(1, 2))' FORMULA:1 
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:28.0 FOR:'((Hyps(0, 1) ∧ Hyps(1, 2)) → Hyps(0, 2))' FORMULA:0 
-INFO:root:UPWARD INFERENCE RESULT:50.0
-INFO:root:----------------------
-INFO:root:REASONING STEP:1
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:3.0 FOR:'(Hyps(0, 1) ∧ Hyps(1, 2))' FORMULA:1 
-INFO:root:↑ BOUNDS UPDATED TIGHTENED:3.0 FOR:'((Hyps(0, 1) ∧ Hyps(1, 2)) → Hyps(0, 2))' FORMULA:0 
-INFO:root:UPWARD INFERENCE RESULT:6.0
-INFO:root:----------------------
-INFO:root:REASONING STEP:2
-INFO:root:NO UPDATES AVAILABLE, TRYING A NEW AXIOM
-INFO:root:======================
-INFO:root:INFERENCE CONVERGED WITH 56.0 BOUNDS UPDATES IN 3 REASONING STEPS 
-INFO:root:******************************************************************************
-INFO:root:********************** Model 2025-12-16 11:28:31.196787 **********************
+INFO:root:********************** Model 2025-12-18 10:34:30.541627 **********************
 INFO:root:----------------------
 INFO:root:REASONING STEP:0
 INFO:root:↑ BOUNDS UPDATED TIGHTENED:22.0 FOR:'(Hyps(0, 1) ∧ Hyps(1, 2))' FORMULA:1 
